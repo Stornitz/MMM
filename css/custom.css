@@ -1,0 +1,122 @@
+
+@font-face {
+	font-family: 'minecraftiaregular';
+	src: url('../fonts/minecraftia-webfont.eot');
+	src: url('../fonts/minecraftia-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/minecraftia-webfont.woff') format('woff'),
+	url('../fonts/minecraftia-webfont.ttf') format('truetype'),
+	url('../fonts/minecraftia-webfont.svg#minecraftiaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#preview {
+	color: white;
+	font-family: "minecraftiaregular","Minecraftia","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	background-color: rgb(97, 122, 128);
+	padding: 20px;
+	min-height: 62px;
+	text-shadow: 1px 1px 2px black;
+	word-wrap: break-word;
+}
+
+.c_0 	{color: #000000;}
+.c_1 	{color: #0000B2;}
+.c_2 	{color: #14AB00;}
+.c_3 	{color: #13AAAB;}
+.c_4 	{color: #A90400;}
+.c_5 	{color: #A900B2;}
+.c_6 	{color: #FEAC00;}
+.c_7 	{color: #AAAAAA;}
+.c_8 	{color: #555555;}
+.c_9 	{color: #544CFF;}
+.c_a 	{color: #5CFF00;}
+.c_b 	{color: #5BFFFF;}
+.c_c 	{color: #FD5650;}
+.c_d 	{color: #FD4DFF;}
+.c_e 	{color: #FFFF00;}
+.c_f 	{color: #FFFFFF;}
+.c_r 	{color: #FFFFFF;}
+
+.c_m, .c_n 	{position: relative;}
+.c_m::after {
+    border-bottom: 3px solid;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.c_n::after {
+    border-bottom: 3px solid;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+.c_o 	{font-style: italic;}
+.c_l {font-weight: bold;}
+
+.hover {
+	text-shadow: 1px 2px 4px black;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+.selected {
+	border: 2px solid darkorange;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+#style {
+	border: none;
+	text-shadow: none;
+	cursor: default;
+	background-color: rgb(97, 122, 128);
+	padding: 0 20px;
+
+}
+
+#style.c_0:after {content: "Black";}
+#style.c_1:after {content: "Dark Blue";}
+#style.c_2:after {content: "Dark Green";}
+#style.c_3:after {content: "Dark Aqua";}
+#style.c_4:after {content: "Dark Red";}
+#style.c_5:after {content: "Dark Purple";}
+#style.c_6:after {content: "Gold";}
+#style.c_7:after {content: "Gray";}
+#style.c_8:after {content: "Dark Gray";}
+#style.c_9:after {content: "Blue";}
+#style.c_a:after {content: "Green";}
+#style.c_b:after {content: "Aqua";}
+#style.c_c:after {content: "Red";}
+#style.c_d:after {content: "Light Purple";}
+#style.c_e:after {content: "Yellow";}
+#style.c_f:after {content: "White";}
+
+#style.c_k:after {content: "Obfuscated";}
+#style.c_l:after {content: "Bold";}
+#style.c_m:after {content: "Strikethrough";}
+#style.c_n:after {content: "Underline";}
+#style.c_o:after {content: "Italic";}
+
+#style:after {content: "None";}
+
+#shareinput {
+	width: 80px;
+	margin-left: 20px;
+	color: gray;
+}
+
+.hidden {
+	display: none;
+}
+
+#exporticon.fa-check 	{color: green;	}
+#exporticon.fa-times 	{color: red; 	}
+#exporticon.fa-refresh {color: blue;	}
